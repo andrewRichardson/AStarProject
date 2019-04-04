@@ -15,4 +15,8 @@ public class Node {
 		this.y = y;
 		this.name = name;
 	}
+	
+	public String toString() {
+		return name+" - X: "+x+", Y: "+y;
+	}
 }

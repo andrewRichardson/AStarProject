@@ -2,13 +2,16 @@ package com.arichardson.main;
 
 public class Connection {
 	
-	public Node from, to;
-	public int cost;
+	public int from, to, cost;
 	
-	public Connection(Node from, Node to, int cost) {
+	public Connection(int from, int to, int cost) {
 		this.from = from;
 		this.to = to;
 		this.cost = cost;
+	}
+	
+	public String toString() {
+		return " - From: "+from+", To: "+to+", Cost:"+cost;
 	}
 
 }
