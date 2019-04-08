@@ -4,6 +4,7 @@ public class Connection {
 	
 	public int from, to, cost;
 	
+	// Connection storage class
 	public Connection(int from, int to, int cost) {
 		this.from = from;
 		this.to = to;
@@ -11,7 +12,7 @@ public class Connection {
 	}
 	
 	public String toString() {
-		return " - From: "+from+", To: "+to+", Cost:"+cost;
+		return from + "  ->  " + to + ",  Cost:" + cost + "\n";
 	}
 
 }
